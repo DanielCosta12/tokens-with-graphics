@@ -16,16 +16,17 @@ function addHtml(coinsData) {
   const tokens = coinsData.data.map((coinsData) => {
     return `
     <div class="coin ${coinsData.rank}">
-    <p>${coinsData.rank}</p>
-    <p>${coinsData.name}</p>
-    <p>${coinsData.symbol}<p/>
-    <p>$${coinsData.price_usd}</p>
-    <p>${coinsData.percent_change_24h}</p>
-    <p>${coinsData.percent_change_1h}</p>
-    <p>${coinsData.percent_change_7d}</p>
-    <p>${coinsData.market_cap_usd}</p>
-    <p>${coinsData.volume24}</p>
-    <p>${coinsData.csupply}</p>
+    
+    <div > <span>${coinsData.rank}</span></div>
+    <div><h2>${coinsData.name}</h2></div>
+    <div class="h3class" ><h4>${coinsData.symbol}<h4/></div>
+    <div><span>$${coinsData.price_usd}</span></div>
+    <div><span>${coinsData.percent_change_24h}</span></div>
+    <div><span>${coinsData.percent_change_1h}</span></div>
+    <div><span>${coinsData.percent_change_7d}</span></div>
+    <div><span>${coinsData.market_cap_usd}</span></div>
+    <div><span>${coinsData.volume24}</span></div>
+    <div><span>${coinsData.csupply}</span></div>
     </div>
     
   
