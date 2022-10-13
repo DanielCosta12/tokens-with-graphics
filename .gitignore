@@ -22,3 +22,5 @@ dist-ssr
 *.sw?
 # Local Netlify folder
 .netlify
+.dist
+node_modules
