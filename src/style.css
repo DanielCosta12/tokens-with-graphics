@@ -4,7 +4,10 @@
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
 }
-
+#chart {
+  width: 800px;
+  height: 400px;
+}
 main {
   min-height: 100vw;
   width: 100%;
